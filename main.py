@@ -24,7 +24,7 @@ love_score_as_int = int(love_score)
 
 if love_score_as_int < 10 or love_score_as_int > 90:
   print(f"Your score is {love_score_as_int}, you go together like coke and mentos.")
-elif love_score_as_int > 40 and love_score_as_int < 50:
+elif love_score_as_int >= 40 and love_score_as_int <= 50:
   print(f"Your score is {love_score_as_int}, you are alright together.")
 else:
   print(f"Your score is {love_score_as_int}.")
